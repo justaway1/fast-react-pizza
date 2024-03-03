@@ -13,7 +13,7 @@ function AppLayout() {
 
       <Header />
 
-      <main>
+      <main className="p-2">
         <Outlet />
       </main>
 
