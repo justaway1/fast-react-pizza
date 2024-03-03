@@ -13,7 +13,7 @@ function AppLayout() {
 
       <Header />
 
-      <main className="max-w-3xl mx-auto overflow-scroll">
+      <main className="max-w-3xl mx-auto overflow-scroll p-4">
         <Outlet />
       </main>
 
