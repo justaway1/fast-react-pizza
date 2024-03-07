@@ -12,7 +12,7 @@ function AppLayout() {
       {isLoading && <Loader />}
       <Header />
 
-      <main className="max-w-3xl mx-auto overflow-scroll p-4">
+      <main className="mx-auto overflow-scroll p-4">
         <Outlet />
       </main>
 
